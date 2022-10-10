@@ -20,6 +20,13 @@
     </Modal>
   </div>
 
+  <div v-if="showMyModal">
+    <Modal @close="toggleMyModal">
+      <h1>New brand modal</h1>
+      <p>Nice feature, pay atention to components with slots.</p>
+    </Modal>
+  </div>
+
   <button @click.alt="toggleModal">open modal (alt click)</button>
   <button @click="toggleModalTwo">open modal 2</button>
 </template>
