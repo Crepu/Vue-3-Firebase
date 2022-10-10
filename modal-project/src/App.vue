@@ -57,6 +57,9 @@ export default {
     },
     toggleModalTwo() {
       this.showModalTwo = !this.showModalTwo
+    },
+    toggleMyModal() {
+      this.showMyModal = !this.showMyModal
     }
   }
 }
