@@ -29,6 +29,7 @@
 
   <button @click.alt="toggleModal">open modal (alt click)</button>
   <button @click="toggleModalTwo">open modal 2</button>
+  <button @click="toggleMyModal">open my modal</button>
 </template>
 
 <script>
