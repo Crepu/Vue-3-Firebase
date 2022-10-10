@@ -48,6 +48,7 @@ export default {
       title: 'My First Vue App!',
       showModal: false,
       showModalTwo: false,
+      showMyModal: false,
     }
   },
   methods: {
